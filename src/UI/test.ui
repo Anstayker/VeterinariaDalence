@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>400</width>
-    <height>300</height>
+    <height>293</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -29,8 +29,27 @@
     <set>QDialogButtonBox::Cancel|QDialogButtonBox::Ok</set>
    </property>
   </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>0</y>
+     <width>341</width>
+     <height>271</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">	
+background-image: url(:/prefijoNuevo/39c7b1265f1bc1803becb29fdc5c034b.jpg);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
  </widget>
- <resources/>
+ <resources>
+  <include location="../../../Veterinaria/test.qrc"/>
+ </resources>
  <connections>
   <connection>
    <sender>buttonBox</sender>
